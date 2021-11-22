@@ -73,6 +73,6 @@ internal class TemiSdkServiceConnection {
     @SuppressLint("LongLogTag")
     private fun forceStop() {
         Log.d(TAG, "forceStop()")
-        Process.killProcess(Process.myPid())
+//        Process.killProcess(Process.myPid())
     }
 }
